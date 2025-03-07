@@ -1,0 +1,51 @@
+[
+  {
+    "id": "hash-table",
+    "name": "哈希表",
+    "category": "data_structures",
+    "description": "通过键值映射存储数据，提供O(1)的查找时间",
+    "operations": "插入O(1), 查找O(1), 删除O(1)",
+    "python_implementation": "dict, Counter, defaultdict",
+    "use_cases": "查找、计数、缓存结果等",
+    "keywords": [
+      "哈希表",
+      "hash table",
+      "字典",
+      "dict",
+      "map"
+    ]
+  },
+  {
+    "id": "heap",
+    "name": "堆/优先队列",
+    "category": "data_structures",
+    "description": "特殊的树形数据结构，可以高效获取最大/最小元素",
+    "operations": "插入O(log n), 获取最值O(1), 删除最值O(log n)",
+    "python_implementation": "heapq模块, PriorityQueue",
+    "use_cases": "Top K问题，调度问题等",
+    "keywords": [
+      "堆",
+      "heap",
+      "优先队列",
+      "priority queue",
+      "最大堆",
+      "最小堆"
+    ]
+  },
+  {
+    "id": "tree",
+    "name": "树",
+    "category": "data_structures",
+    "description": "由节点和边组成的分层数据结构",
+    "operations": "插入O(log n), 查找O(log n), 删除O(log n)（平衡树）",
+    "python_implementation": "自定义类",
+    "use_cases": "层次结构表示, 搜索, 排序",
+    "keywords": [
+      "树",
+      "tree",
+      "二叉树",
+      "binary tree",
+      "平衡树"
+    ]
+  }
+]

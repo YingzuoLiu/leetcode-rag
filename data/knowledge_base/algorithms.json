@@ -1,0 +1,77 @@
+[
+  {
+    "id": "two-pointer",
+    "name": "双指针技术",
+    "category": "algorithms",
+    "description": "使用两个指针在数组或链表上移动，通常用于查找对、子数组等",
+    "applications": [
+      "数组",
+      "链表",
+      "字符串"
+    ],
+    "complexity": "时间 O(n), 空间 O(1)",
+    "example": "用于求解数组中的两数之和等问题",
+    "keywords": [
+      "双指针",
+      "two pointer",
+      "滑动",
+      "sliding"
+    ]
+  },
+  {
+    "id": "binary-search",
+    "name": "二分查找",
+    "category": "algorithms",
+    "description": "在有序集合中查找特定元素的高效算法",
+    "applications": [
+      "有序数组",
+      "搜索",
+      "旋转数组"
+    ],
+    "complexity": "时间 O(log n), 空间 O(1)",
+    "example": "在排序数组中查找元素位置",
+    "keywords": [
+      "二分",
+      "binary search",
+      "折半",
+      "查找"
+    ]
+  },
+  {
+    "id": "dynamic-programming",
+    "name": "动态规划",
+    "category": "algorithms",
+    "description": "将问题分解为子问题并存储子问题的解，避免重复计算",
+    "applications": [
+      "优化问题",
+      "计数问题",
+      "最大/最小值问题"
+    ],
+    "complexity": "时间和空间复杂度取决于状态数量和转移",
+    "example": "背包问题，最长公共子序列等",
+    "keywords": [
+      "动态规划",
+      "DP",
+      "dynamic programming",
+      "最优子结构"
+    ]
+  },
+  {
+    "id": "greedy",
+    "name": "贪心算法",
+    "category": "algorithms",
+    "description": "在每一步选择中都采取当前状态下最好的选择",
+    "applications": [
+      "区间问题",
+      "排序问题",
+      "图算法"
+    ],
+    "complexity": "通常时间 O(n log n), 空间 O(1)",
+    "example": "区间调度问题，哈夫曼编码",
+    "keywords": [
+      "贪心",
+      "greedy",
+      "局部最优"
+    ]
+  }
+]
