@@ -28,11 +28,3 @@ bashCopypython app.py
 在浏览器中访问 http://localhost:8000
 
 
-## 项目结构
-
-data/：知识库和嵌入数据
-models/：语言模型
-src/：源代码
-public/：前端资源
-scripts/：辅助脚本
-
