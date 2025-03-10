@@ -32,6 +32,8 @@ bashCopypython app.py
 
 # 双循环优化架构
 
+![image](images/Untitled-diagram.png)
+
 ## 前台用户反馈循环
 
 ```
